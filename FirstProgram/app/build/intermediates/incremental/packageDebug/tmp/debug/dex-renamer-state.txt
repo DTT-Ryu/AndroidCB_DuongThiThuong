@@ -1,0 +1,10 @@
+#Mon Aug 26 03:06:11 ICT 2024
+base.0=F\:\\Nam3\\KyI\\Android\\Class\\FirstProgram\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=F\:\\Nam3\\KyI\\Android\\Class\\FirstProgram\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=F\:\\Nam3\\KyI\\Android\\Class\\FirstProgram\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=9/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
