@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ex1_EventProgramming"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:layout_margin="20dp"
+    android:layout_marginTop="30dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtSoA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số A: "
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/edtSoA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="Nhập số A"
+            android:textSize="25sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtSoB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số B: "
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/edtSoB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="Nhập số B"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvKQ"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        android:hint="Kết quả"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/btnTong"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/gray_mid"
+        android:text="TỔNG 2 SỐ"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/btnHieu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/gray_mid"
+        android:text="HIỆU 2 SỐ"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/btnTich"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/gray_mid"
+        android:text="TÍCH 2 SỐ"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/btnThuong"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/gray_mid"
+        android:text="THƯƠNG 2 SỐ"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/btnUCLN"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/gray_mid"
+        android:text="ƯỚC CHUNG LỚN NHẤT"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/btnThoat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/gray_mid"
+        android:text="THOÁT CHƯƠNG TRÌNH"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:textAllCaps="false" />
+</LinearLayout>
