@@ -1,9 +1,11 @@
 package com.example.lab2;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.*;
 import android.widget.LinearLayout;
@@ -24,6 +26,7 @@ public class Ex1Activity extends AppCompatActivity {
     ImageView imgView;
     ProgressBar prgBar;
     Handler handler = new Handler();
+    Button btnBackEx1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +40,14 @@ public class Ex1Activity extends AppCompatActivity {
         getView();
         prgBar = findViewById(R.id.progressBar);
         customProgressBar();
+        btnBackEx1 = findViewById(R.id.btnBackEx1);
+        btnBackEx1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iMain = new Intent(Ex1Activity.this, MainActivity.class);
+                startActivity(iMain);
+            }
+        });
     }
     private void getView(){
         layoutMain = findViewById(R.id.layoutMain);

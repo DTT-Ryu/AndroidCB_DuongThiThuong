@@ -7,6 +7,19 @@
     android:layout_height="match_parent"
     tools:context=".Ex5_InterfaceDesign"
     android:background="@color/purple">
+    <Button
+        android:id="@+id/btnBackEx5"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Back"
+        android:textSize="20dp"
+        android:backgroundTint="@color/bkg5"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints"
+        android:textAllCaps="false"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -140,7 +153,7 @@
                         android:textSize="18sp"/>
                 </LinearLayout>
             </LinearLayout>
-         </LinearLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:paddingBottom="24dp"
