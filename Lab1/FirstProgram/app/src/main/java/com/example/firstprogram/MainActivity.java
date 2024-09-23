@@ -11,7 +11,6 @@ import android.provider.MediaStore;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.*;
-//import android.widget.*;
 
 public class MainActivity extends AppCompatActivity {
     EditText txtX, txtY;
@@ -24,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         innitControl();
     }
+
     private void innitControl(){
         txtX=findViewById(R.id.txtX);
         txtY = findViewById(R.id.txtY);
@@ -71,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 txtResult.setText(String.valueOf(result));
             }
         });
+
 
         btnDivi2 = findViewById(R.id.btnDivi2);
         btnDivi2.setOnClickListener(new View.OnClickListener() {
